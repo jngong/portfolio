@@ -1,38 +1,22 @@
+:root {
+  --headline-font: 'Roboto', sans-serif;
+  --body-font: 'Source Sans Pro', sans-serif;
+  --logo-font: 'Zeyada', cursive;
+
+  /* --main-color: #E24C52;
+  --light-accent-color: #8DB2BD;
+  --dark-accent-color: #15D3D3;
+  --dark-shade-color: #213248;
+  --light-shade-color: #F0E4DD; */
+
+  --main-color: #26759A;
+  --light-accent-color: #3DBDD7;
+  --dark-accent-color: #956B72;
+  --dark-shade-color: #213248;
+  --light-shade-color: #E2E4EB;
+
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
