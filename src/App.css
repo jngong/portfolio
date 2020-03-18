@@ -11,8 +11,50 @@
 
 * {
   box-sizing: border-box;
+  /* border: 1px dashed red; */
 }
 
-.App {
-  text-align: center;
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: var(--body-font);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--headline-font);
+}
+
+a {
+  text-decoration: none;
+}
+
+/**** HEADER STYLES ****/
+.logo {
+  font-family: var(--logo-font);
+  font-size: 1.5rem;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;  
+}
+
+nav > div {
+  margin-left: 1rem;
+}
+
+/**** CONTACT STYLES ****/
+
+form {
+  display: flex;
+  flex-direction: column;  
 }
