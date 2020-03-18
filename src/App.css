@@ -27,34 +27,55 @@ h1, h2, h3, h4 {
 
 a {
   text-decoration: none;
+  color: var(--light-accent-color);
 }
 
 /**** HEADER STYLES ****/
 .logo {
   font-family: var(--logo-font);
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1rem;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: var(--dark-shade-color);
+  color: #fff;
 }
 
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;  
+  justify-content: flex-end;
+  align-items: center;  
 }
 
 nav > div {
   margin-left: 1rem;
 }
 
+/**** MAIN SECTION STYLES ****/
+
+.main-container, .contact-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
 /**** CONTACT STYLES ****/
 
 form {
+  width: 50%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;  
+}
+
+/**** FOOTER STYLES ****/
+
+footer {
+  text-align: center
 }
