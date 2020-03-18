@@ -23,6 +23,7 @@ body {
 
 h1, h2, h3, h4 {
   font-family: var(--headline-font);
+  font-weight: 700;
 }
 
 a {
@@ -59,10 +60,39 @@ nav > div {
 
 /**** MAIN SECTION STYLES ****/
 
-.main-container, .contact-container {
+.main-container, .contact-container, .section-container, .hero {
   width: 90%;
   margin: 0 auto;
   padding: 1rem;
+}
+
+.section-header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-header > h2 {
+  display: inline-block;
+  background-color: #ffffff;
+  padding-right: 2rem;
+  z-index: 1;
+  /* text-transform: uppercase; */
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family: var(--logo-font);
+}
+
+.header-line {
+  display: inline-block;
+  height: 2px;
+  width: 90%;
+  right: 0;
+  z-index: -1;
+  position: absolute;
+  background-color: var(--light-accent-color);
 }
 
 /**** CONTACT STYLES ****/
@@ -77,5 +107,7 @@ form {
 /**** FOOTER STYLES ****/
 
 footer {
-  text-align: center
+  text-align: center;
+  font-family: var(--logo-font);
+  font-size: 1.3rem;
 }

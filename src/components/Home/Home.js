@@ -1,6 +1,7 @@
 import React from 'react'
 import AboutMe from './AboutMe'
 import Hero from '../Layout/Hero'
+import '../../styles/Home.css'
 
 const Home = (props) => {
     return(
