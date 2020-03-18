@@ -7,7 +7,10 @@
   --dark-accent-color: #956B72;
   --dark-shade-color: #213248;
   --light-shade-color: #E2E4EB;
+}
 
+* {
+  box-sizing: border-box;
 }
 
 .App {
