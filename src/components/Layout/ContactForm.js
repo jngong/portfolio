@@ -10,6 +10,7 @@ const ContactForm = (props) => {
                 type='text'
                 name='name'
                 value={props.formDetails.name}
+                onChange={props.handleChange}
             />
             <label>Email Address</label>
             <input 
@@ -17,12 +18,14 @@ const ContactForm = (props) => {
                 type='text'
                 name='email'
                 value={props.formDetails.email}
+                onChange={props.handleChange}
             />
             <label>Message</label>
             <textarea 
                 autoComplete='off'
                 name='message'
                 value={props.formDetails.message}
+                onChange={props.handleChange}
             />
             <button>
                 Send 
