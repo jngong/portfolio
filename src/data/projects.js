@@ -6,7 +6,7 @@ export const projectData = [
         features: "Complex game logic with score tracking and reset capability, Local storage for unique session token, Responsive media queries, Keyframe animation",
         image: "",
         site_link: "https://pages.git.generalassemb.ly/jngong/entertainment-iq-trivia/",
-        github_link: ""
+        github_link: "https://github.com/jngong/entertainment-iq"
     },
     {
         title: "Gender Diversity in Film",
@@ -15,7 +15,7 @@ export const projectData = [
         features: "User search for film title, Default home page view of trending movies, Dynamic routing to film detail pages, Calculation of cast / crew gender %, Match data from 2 APIs based on common identifier, Conditional rendering of Bechdel Test results, Responsive media queries",
         image: "",
         site_link: "https://gender-diversity-in-film.surge.sh/",
-        github_link: ""
+        github_link: "https://github.com/jngong/gender-diversity-in-film"
     },
     {
         title: "Travelogue",
@@ -24,7 +24,7 @@ export const projectData = [
         features: "User sign up / login with encrypted password & JWT authorization, User can create, read, update & delete their own entries, Public view of places filterable by country, Model-View-Controller (MVC) design pattern, REST API backend, Responsive media queries",
         image: "",
         site_link: "https://travelogue-app.herokuapp.com/",
-        github_link: ""
+        github_link: "https://github.com/jngong/travelogue"
     },
     {
         title: "Expedia",
@@ -33,7 +33,7 @@ export const projectData = [
         features: "Mobile first design, User search for bundled vacation packages, Checkbox for eco-friendly options only, User flow to select hotels and room types, Pixel perfect CSS matching UX mock-ups in Zeplin, Admin section for listing, updating or deleting a new hotel",
         image: "",
         site_link: "https://expedia-flying-four.herokuapp.com/",
-        github_link: ""
+        github_link: "https://git.generalassemb.ly/jtlan/flying-four"
     },
     {
         title: "Friends of Columbus Park",
@@ -41,7 +41,7 @@ export const projectData = [
         overview: "Redesigned website for a local Chinatown, NY based not-for-profit organization focused on protecting and advocating for Columbus Park and its surrounding community members. This was the first end-to-end project that I built as a developer and was the final project for my part-time Front End Web Development course.",
         features: "Sticky navigation bar, Mobile responsiveness incl. collapsable menu, Integration of jQuery libraries for image carousel and lightbox functionality, Heavy use of flexbox for layout",
         image: "",
-        site_link: "https://jngong.github.io/",
-        github_link: ""
+        site_link: "https://jngong.github.io/focp-ny-website/",
+        github_link: "https://github.com/jngong/focp-ny-website"
     }
 ]
