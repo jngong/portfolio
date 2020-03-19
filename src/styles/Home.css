@@ -24,3 +24,35 @@
     width: 250px;
     border-radius: 10%;
 }
+
+/**** SKILLS SECTION STYLES ****/
+
+.skills-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.skill {
+    min-width: 120px;
+    width: 15%;
+    padding: .5rem;
+    margin: 1rem .5rem;
+    text-align: center;
+    font-family: var(--headline-font);
+    color: var(--dark-shade-color);
+    letter-spacing: .5px;
+}
+
+.devicon {
+    font-size: 3rem;
+}
+
+.skill-label {
+    margin-top: 5px;
+}
+
+.skill:hover {
+    color: var(--light-accent-color)
+}
+

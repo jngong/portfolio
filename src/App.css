@@ -79,7 +79,6 @@ nav > div {
   background-color: #ffffff;
   padding-right: 2rem;
   z-index: 1;
-  /* text-transform: uppercase; */
   letter-spacing: 1px;
   font-weight: 500;
   font-family: var(--logo-font);

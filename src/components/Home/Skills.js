@@ -1,17 +1,26 @@
 import React from 'react'
+import { skillsData } from '../../data/skills'
 
 const Skills = () => {
 
-    return(
+    const skills = skillsData.map((skill, i) => {
+        return(
+            <div key={i} className='skill'>
+                <i className={`${skill.icon} devicon`}></i>
+                <div className='skill-label'>{skill.name}</div>
+            </div>
+        )
+    })
+
+    return (
         <div className='section-container'>
             <div className='section-header'>
                 <h2>Development Skills</h2>
                 <div className='header-line'></div>
             </div>
-            <div>
-
+            <div className='skills-container'>
+                {skills}
             </div>
-
         </div>
     )
 }
