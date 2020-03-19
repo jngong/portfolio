@@ -7,14 +7,16 @@ const FeaturedProjectCard = (props) => {
     const {title, overview, tech_stack, image, site_link, github_link} = props.project
     return(
         <div className='featured-project-card'>
-            <img src={image} alt={title} />
-            <h3>{title}</h3>
+            <a href={site_link} target="blank">
+                <img src={image} alt={title} className='featured-project-card-image'/>
+            </a>
+            <h2>{title}</h2>
             <p>{overview}</p>
             <h4>Tech Stack:</h4>
             <p>{tech_stack}</p>
-            <div>
-                <a href={site_link} target="blank"><OpenInNewIcon /></a>
-                <a href={github_link} target="blank"><GitHubIcon /></a>
+            <div className='icon-row'>
+                <a href={site_link} target="blank"> <OpenInNewIcon /></a>
+                <a href={github_link} target="blank"> <GitHubIcon /></a>
             </div>
         </div>
     )

@@ -31,6 +31,10 @@ a {
   color: var(--light-accent-color);
 }
 
+a:hover {
+  color: var(--main-color)
+}
+
 /**** HEADER STYLES ****/
 .logo {
   font-family: var(--logo-font);

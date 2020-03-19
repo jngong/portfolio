@@ -1,7 +1,7 @@
 import EntertainmentIQ from '../images/entertainmentiq.jpeg'
 import Expedia from '../images/expedia.jpeg'
 import Focp from '../images/focp.jpeg'
-import GenderDiversity from '../images/genderdiversityinfilm.jpeg'
+import GenderDiversity from '../images/gender-diversity-in-film.jpeg'
 import Travelogue from '../images/travelogue.jpeg'
 
 export const projectData = [
@@ -17,7 +17,7 @@ export const projectData = [
     {
         title: "Gender Diversity in Film",
         tech_stack: "React, CSS, The Movie Database API, Bechdel Test API",
-        overview: "When it comes to gender parity in entertainment, Hollywood has a long way to go. Explore the diversity of films based on results of the Bechdel Test and breakdown of gender % in the cast and crew. Search by film title to get started.",
+        overview: "When it comes to gender parity in entertainment, Hollywood has a long way to go. Explore the diversity of films based on results of the Bechdel Test and breakdown of gender percentages in the cast and crew. Search by film title to get started.",
         features: "User search for film title, Default home page view of trending movies, Dynamic routing to film detail pages, Calculation of cast / crew gender %, Match data from 2 APIs based on common identifier, Conditional rendering of Bechdel Test results, Responsive media queries",
         image: GenderDiversity,
         site_link: "https://gender-diversity-in-film.surge.sh/",
@@ -26,7 +26,7 @@ export const projectData = [
     {
         title: "Travelogue",
         tech_stack: "React, CSS, Ruby on Rails, PostgreSQL, bcrypt, JWT, Heroku",
-        overview: "Ever been asked for travel recommendations and come up at a loss for what you enjoyed on that trip 3 years ago? Travelogue helps you keep track of where you've been so you can help others get to where they're going. I designed, built and deployed the MVP for this full-stack web application in one week as the final project for my Software Engineering Immersive course.",
+        overview: "Travelogue helps you keep track of where you've been so you can help others get to where they're going. Create an account to start logging your adventures. I designed and built the MVP for this full-stack web app in one week as the final project for my Software Engineering Immersive.",
         features: "User sign up / login with encrypted password & JWT authorization, User can create, read, update & delete their own entries, Public view of places filterable by country, Model-View-Controller (MVC) design pattern, REST API backend, Responsive media queries",
         image: Travelogue,
         site_link: "https://travelogue-app.herokuapp.com/",
