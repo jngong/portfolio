@@ -6,12 +6,12 @@ import EmailIcon from '@material-ui/icons/Email'
 const Nav = () => {
     return(
         <nav>
-            <div>About Me</div>
-            <div>Projects</div>
-            <div><a href="https://docdro.id/N5Wca5U" target="blank">Resume</a></div>
-            <div><a href="https://www.linkedin.com/in/jngong/" target="blank"><LinkedInIcon /></a></div>
-            <div><a href="https://github.com/jngong" target="blank"><GitHubIcon /></a></div>
-            <div><EmailIcon /></div>
+            <div className='navlink'><a href="#about-me">About Me</a></div>
+            <div className='navlink'><a href="#projects">Projects</a></div>
+            <div className='navlink'><a href="https://docdro.id/N5Wca5U" target="blank">Resume</a></div>
+            <div className='navlink'><a href="https://www.linkedin.com/in/jngong/" target="blank"><LinkedInIcon /></a></div>
+            <div className='navlink'><a href="https://github.com/jngong" target="blank"><GitHubIcon /></a></div>
+            <div className='navlink'><a href="#contact"><EmailIcon /></a></div>
         </nav>
     )
 }

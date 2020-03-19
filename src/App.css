@@ -58,6 +58,14 @@ nav {
   align-items: center;  
 }
 
+.navlink > a {
+  color: #ffffff;
+}
+
+.navlink > a:hover {
+  color: var(--light-accent-color);
+}
+
 nav > div {
   margin-left: 1rem;
 }
@@ -65,7 +73,7 @@ nav > div {
 /**** MAIN SECTION STYLES ****/
 
 .main-container, .contact-container, .section-container, .hero {
-  padding: 1rem 0;
+  padding: 0 0 1rem 0;
 }
 
 .section-header {
@@ -74,12 +82,14 @@ nav > div {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
+  margin: 1rem 0;
+  background-color: #ffffff;
 }
 
 .section-header > h2 {
   display: inline-block;
   background-color: #ffffff;
+  margin: 0;
   padding: 0 2rem;
   z-index: 5;
   letter-spacing: 1px;
@@ -99,6 +109,17 @@ nav > div {
 }
 
 /**** CONTACT STYLES ****/
+
+.contact-container {
+  background-color: var(--light-shade-color);
+}
+
+.contact-description {
+  width: 70%;
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 1.2rem;
+}
 
 form {
   width: 50%;
