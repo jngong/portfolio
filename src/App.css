@@ -193,6 +193,20 @@ footer > p {
 }
 
 @media only screen and (max-width: 450px) {
+
+  .logo > a {
+    font-size: 1.3rem;
+  }
+
+  header {
+    padding: 1.1rem 1.5rem;
+  }
+
+  nav > div {
+    font-size: .9rem;
+    margin-left: .8rem;
+  }
+
   .hero {
     min-height: 80vh;
   }
@@ -200,5 +214,17 @@ footer > p {
   .contact-container, .section-container, .hero {
     padding: 2rem 1rem 3rem;
     width: 100vw;
+  }
+
+  .section-header {
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+
+  .header-line {
+    display: block;
+    height: 2px;
+    position: static;
+    background-color: var(--light-accent-color);
   }
 }
