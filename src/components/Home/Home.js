@@ -3,6 +3,7 @@ import AboutMe from './AboutMe'
 import Hero from '../Layout/Hero'
 import '../../styles/Home.css'
 import Skills from './Skills'
+import FeaturedProjects from './FeaturedProjects'
 
 const Home = (props) => {
     return(
@@ -10,6 +11,7 @@ const Home = (props) => {
             <Hero />
             <AboutMe />
             <Skills />
+            <FeaturedProjects />
         </div>
     )
 }

@@ -61,9 +61,7 @@ nav > div {
 /**** MAIN SECTION STYLES ****/
 
 .main-container, .contact-container, .section-container, .hero {
-  width: 90%;
-  margin: 0 auto;
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 .section-header {
