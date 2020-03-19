@@ -16,7 +16,7 @@ const FeaturedProjects = () => {
     })
 
     return (
-        <div className='section-container'>
+        <div className='section-container projects'>
             <div className='section-header' id='projects'>
                 <h2>Featured Projects</h2>
                 <div className='header-line'></div>

@@ -7,7 +7,7 @@ import FeaturedProjects from './FeaturedProjects'
 
 const Home = (props) => {
     return(
-        <div className='main-container'>
+        <div>
             <Hero />
             <AboutMe />
             <Skills />

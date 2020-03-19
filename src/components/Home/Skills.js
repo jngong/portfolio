@@ -13,8 +13,8 @@ const Skills = () => {
     })
 
     return (
-        <div className='section-container'>
-            <div className='section-header'>
+        <div className='section-container skills'>
+            <div className='section-header' id='skills'>
                 <h2>Technical Skills</h2>
                 <div className='header-line'></div>
             </div>

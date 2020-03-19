@@ -9,14 +9,16 @@
   --light-shade-color: #E2E4EB;
 }
 
+html {
+  scroll-padding-top: 5rem; 
+}
+
 * {
   box-sizing: border-box;
   /* border: 1px dashed red; */
 }
 
 body {
-  max-width: 1400px;
-  margin: 0 auto;
   font-size: 16px;
   font-family: var(--body-font);
 }
@@ -36,9 +38,10 @@ a:hover {
 }
 
 /**** HEADER STYLES ****/
-.logo {
+.logo > a {
   font-family: var(--logo-font);
   font-size: 1.6rem;
+  color: #FFFFFF;
 }
 
 header {
@@ -49,6 +52,9 @@ header {
   padding: 1rem 3rem;
   background-color: var(--dark-shade-color);
   color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 nav {
@@ -72,8 +78,10 @@ nav > div {
 
 /**** MAIN SECTION STYLES ****/
 
-.main-container, .contact-container, .section-container, .hero {
-  padding: 0 0 1rem 0;
+.contact-container, .section-container, .hero {
+  padding: 2rem 3rem;
+  width: 100vw;
+  min-height: 70vh;
 }
 
 .section-header {
@@ -88,7 +96,6 @@ nav > div {
 
 .section-header > h2 {
   display: inline-block;
-  background-color: #ffffff;
   margin: 0;
   padding: 0 2rem;
   z-index: 5;
@@ -96,6 +103,7 @@ nav > div {
   font-weight: 500;
   color: var(--main-color);
   font-family: var(--logo-font);
+  font-size: 2rem;
 }
 
 .header-line {
@@ -110,7 +118,7 @@ nav > div {
 
 /**** CONTACT STYLES ****/
 
-.contact-container {
+.contact-container, #contact, #contact > h2 {
   background-color: var(--light-shade-color);
 }
 
@@ -123,7 +131,7 @@ nav > div {
 
 form {
   width: 50%;
-  margin: 0 auto;
+  margin: 0 auto 3rem;
   display: flex;
   flex-direction: column;  
 }

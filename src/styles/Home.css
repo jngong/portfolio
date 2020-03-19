@@ -1,23 +1,28 @@
 /**** ABOUT SECTION STYLES ****/
 
+.about, #about-me, #about-me > h2 {
+    background-color: var(--dark-shade-color);
+    color: #ffffff;
+}
+
 .about-container {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    padding: 0 2% 0 8%;
+    padding: 2rem 2% 2rem 8%;
 }
 
 .about-text {
-    width: 60%;
+    width: 50%;
     margin-right: 5%;
     letter-spacing: .5px;
     line-height: 1.4rem;
+    font-size: 1.1rem;
 }
 
 .about-image {
     width: 25%;
-    /* padding: 1rem; */
 }
 
 .profile {
@@ -25,6 +30,11 @@
     max-width: 300px;
     min-width: 200px;
     border-radius: 10%;
+}
+
+.cta-line {
+    margin-top: 2.5rem;
+    font-weight: 700;
 }
 
 .pdf-icon {
@@ -38,10 +48,19 @@
 
 /**** SKILLS SECTION STYLES ****/
 
+.skills, #skills, #skills > h2 {
+    background-color: var(--light-shade-color);
+}
+
+#projects > h2 {
+    color: #ffffff;
+}
+
 .skills-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    padding: 2rem;
 }
 
 .skill {
@@ -69,11 +88,18 @@
 
 /**** FEATURED PROJECT SECTION STYLES ****/
 
+.projects, #projects, #projects > h2 {
+    background-color: var(--dark-shade-color);
+}
+
+#projects > h2 {
+    color: #ffffff;
+}
+
 .featured-projects-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    background-color: var(--dark-accent-color);
     padding: 2rem 3rem;
 }
 
