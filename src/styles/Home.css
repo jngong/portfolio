@@ -9,7 +9,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .hero-text {
@@ -218,6 +217,42 @@
 }
   
 /* Media query for phones */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 450px) {
+
+    .hero-text > h1 {
+        font-size: 3.5rem;
+    }
+
+    .hero-text > h3 {
+        font-size: 2rem;
+    }
+
+    .about-container {
+        padding: 1rem;
+    }
+
+    .about-image {
+        width: 100%
+    }
+
+    .profile {
+        max-width: 200px
+    }
+
+    .featured-projects-container {
+        padding: .5rem;
+    }
+
+    .featured-project-card {
+        min-width: unset;
+        width: 95%;
+    }
+
+    .featured-project-card-image {
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+        max-height: unset;
+    }
 
 }
