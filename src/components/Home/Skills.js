@@ -15,7 +15,7 @@ const Skills = () => {
     return (
         <div className='section-container'>
             <div className='section-header'>
-                <h2>Development Skills</h2>
+                <h2>Technical Skills</h2>
                 <div className='header-line'></div>
             </div>
             <div className='skills-container'>

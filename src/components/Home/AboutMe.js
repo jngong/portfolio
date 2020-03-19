@@ -17,7 +17,7 @@ const AboutMe = () => {
                         <a href="https://docdro.id/N5Wca5U" target="blank">
                             <p className='cta-line'>
                                 <span> Download Resume</span>
-                                <PictureAsPdfIcon />
+                                <PictureAsPdfIcon className='pdf-icon'/>
                             </p>
                         </a>
                 </div>
