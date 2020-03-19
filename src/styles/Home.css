@@ -44,28 +44,33 @@
 .about-container {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 2rem 2% 2rem 8%;
+    justify-content: space-around;
+    padding: 2rem 5rem;
 }
 
 .about-text {
     width: 50%;
-    margin-right: 5%;
     letter-spacing: .5px;
     line-height: 1.4rem;
     font-size: 1.1rem;
 }
 
+.about-text > p {
+    margin-top: 0;
+}
+
 .about-image {
-    width: 25%;
+    width: 40%;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .profile {
-    width: 100%;
+    width: 90%;
     max-width: 300px;
     min-width: 200px;
     border-radius: 10%;
+    margin: 0 auto;
 }
 
 .cta-line {
@@ -172,4 +177,47 @@
 .icon-row > a {
     display: inline-block;
     margin-right: 1rem;
+}
+
+
+/* Media query for tablets */
+@media only screen and (max-width: 800px) {
+    .about-container {
+        flex-direction: column-reverse;
+        padding: 1rem 2rem 2rem;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .about-image {
+        width: 50%;
+        margin: 1rem auto;
+    }
+
+    .skills-container {
+        padding: 1rem
+    }
+
+    .skill {
+        min-width: 100px;
+        margin: .5rem;
+    }
+
+    .featured-projects-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .featured-project-card {
+        width: 80%;
+    }
+}
+  
+/* Media query for phones */
+@media only screen and (max-width: 600px) {
+
 }

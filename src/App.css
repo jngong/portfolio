@@ -4,7 +4,6 @@
   --logo-font: 'Zeyada', cursive;
   --main-color: #26759A;
   --light-accent-color: #3DBDD7;
-  --dark-accent-color: #956B72;
   --dark-shade-color: #213248;
   --light-shade-color: #E2E4EB;
 }
@@ -161,4 +160,26 @@ footer > p {
   font-family: var(--logo-font);
   font-size: 1.3rem;
   letter-spacing: .5px
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 800px) {
+
+  .hero {
+    min-height: 50vh;
+  }
+
+  .contact-description {
+    width: 90%;
+  }
+
+  form {
+    width: 90%
+  }
+
+}
+
+/* Media query for phones */
+@media only screen and (max-width: 600px) {
+
 }
