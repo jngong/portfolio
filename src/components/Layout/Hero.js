@@ -1,12 +1,13 @@
 import React from 'react'
 
 const Hero = () => {
-    return(
+    return (
         <div className='hero' id='top'>
-            <h3>Hello!</h3>
-            <h1>I'm Jennifer Gong</h1>
-            <h3>Software Developer</h3>
-            <h4>New York, NY</h4>
+            <div className='hero-text'>
+                <h1>Jennifer Gong</h1>
+                <h3>Software Developer</h3>
+                <h4>New York City</h4>
+            </div>
         </div>
     )
 }
