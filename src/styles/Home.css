@@ -2,7 +2,7 @@
 .hero {
     background: 
         linear-gradient(rgba(226,228,235,.9),rgba(226,228,235,.5)), 
-        url(../images/unsplash-multicolored-stripes.jpeg) 
+        url(../images/unsplash-multicolored-stripes.webp) 
         center / cover no-repeat;
     overflow: hidden;
     color: var(--dark-shade-color);

@@ -1,8 +1,8 @@
-import EntertainmentIQ from '../images/entertainmentiq.jpeg'
-import Expedia from '../images/expedia.jpeg'
-import Focp from '../images/focp.jpeg'
-import GenderDiversity from '../images/gender-diversity-in-film.jpeg'
-import Travelogue from '../images/travelogue.jpeg'
+import EntertainmentIQ from '../images/entertainmentiq.webp'
+import Expedia from '../images/expedia-new.webp'
+import Focp from '../images/focp.webp'
+import GenderDiversity from '../images/gender-diversity-in-film.webp'
+import Travelogue from '../images/travelogue.webp'
 
 export const projectData = [
     {

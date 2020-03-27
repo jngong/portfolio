@@ -1,6 +1,6 @@
 import React from 'react'
 import PictureAsPdfIcon from '@material-ui/icons/PictureAsPdf';
-import Profile from '../../images/jennifer-gong.jpeg'
+import Profile from '../../images/jennifer-gong.webp'
 
 const AboutMe = () => {
     return (
