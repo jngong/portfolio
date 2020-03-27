@@ -8,7 +8,7 @@ const Nav = () => {
         <nav>
             <div className='navlink'><a href="#about-me">About Me</a></div>
             <div className='navlink'><a href="#projects">Projects</a></div>
-            <div className='navlink'><a href="https://docdro.id/N5Wca5U" target="blank">Resume</a></div>
+            <div className='navlink'><a href="https://drive.google.com/file/d/1QhcTiwjI-Enx9nyG-R-jCxcdGZWhT_IX/view" target="blank">Resume</a></div>
             <div className='navlink'><a href="https://www.linkedin.com/in/jngong/" target="blank"><LinkedInIcon /></a></div>
             <div className='navlink'><a href="https://github.com/jngong" target="blank"><GitHubIcon /></a></div>
             <div className='navlink'><a href="#contact"><EmailIcon /></a></div>
