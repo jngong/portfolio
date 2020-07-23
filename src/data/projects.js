@@ -3,6 +3,7 @@ import Expedia from "../images/expedia-new.jpg";
 import Focp from "../images/focp.jpg";
 import GenderDiversity from "../images/gender-diversity-in-film.jpg";
 import Travelogue from "../images/travelogue.jpg";
+import Neptune from "../images/neptune-project-showcase.jpg";
 
 export const projectData = [
   {
@@ -37,6 +38,17 @@ export const projectData = [
     image: Travelogue,
     site_link: "https://travelogue-app.herokuapp.com/",
     github_link: "https://github.com/jngong/travelogue",
+  },
+  {
+    title: "SEI Neptune Project Showcase",
+    tech_stack: "React, Styled Components, Ruby on Rails, PostgreSQL, Netlify",
+    overview:
+      "Explore the projects from General Assembly's Software Engineering Immersive students (Neptune cohort). As an Instructional Associate, I built this full-stack website to showcase the progress of my students, and used it as an opportunity to use React Hooks, try Styled Components, and gain more experience with a Many to Many SQL relationships.",
+    features:
+      "Students can create their own projects and upon submission, will have a one-time opportunity to Edit or Delete the project. Users can view all projects on the homepage and filter the projects by Unit using the navigation tabs at the top.",
+    image: Neptune,
+    site_link: "https://neptune-projects.netlify.app/",
+    github_link: "https://github.com/jngong/neptune-project-showcase",
   },
   {
     title: "Expedia",
