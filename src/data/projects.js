@@ -32,7 +32,7 @@ export const projectData = [
     title: "Travelogue",
     tech_stack: "React, CSS, Ruby on Rails, PostgreSQL, bcrypt, JWT, Heroku",
     overview:
-      "Travelogue helps you keep track of where you've been so you can help others get to where they're going. Create an account to start logging your adventures. I designed and built the MVP for this full-stack web app in one week as the final project for my Software Engineering Immersive.",
+      "Travelogue helps you keep track of where you've been so you can help others get to where they're going. Create an account or use the demo account (username: guest, password: pwguest) to check it out. I designed and built the MVP for this full-stack web app in one week.",
     features:
       "User sign up / login with encrypted password & JWT authorization, User can create, read, update & delete their own entries, Public view of places filterable by country, Model-View-Controller (MVC) design pattern, REST API backend, Responsive media queries",
     image: Travelogue,
@@ -43,7 +43,7 @@ export const projectData = [
     title: "SEI Neptune Project Showcase",
     tech_stack: "React, Styled Components, Ruby on Rails, PostgreSQL, Netlify",
     overview:
-      "Explore the projects from General Assembly's Software Engineering Immersive students (Neptune cohort). As an Instructional Associate, I built this full-stack website to showcase the progress of my students, and used it as an opportunity to use React Hooks, try Styled Components, and gain more experience with a Many to Many SQL relationships.",
+      "Explore the projects from General Assembly's Software Engineering Immersive students (Neptune cohort). As an Instructional Associate, I built this full-stack website to showcase the progress of my students, and used it as an opportunity to explore React Hooks, Styled Components, and Many to Many SQL table relationships.",
     features:
       "Students can create their own projects and upon submission, will have a one-time opportunity to Edit or Delete the project. Users can view all projects on the homepage and filter the projects by Unit using the navigation tabs at the top.",
     image: Neptune,
