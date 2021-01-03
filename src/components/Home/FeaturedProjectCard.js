@@ -16,7 +16,7 @@ const FeaturedProjectCard = (props) => {
             <p>{tech_stack}</p>
             <div className='icon-row'>
                 <a href={site_link} target="_blank"> <OpenInNewIcon /></a>
-                <a href={github_link} target="_blank"> <GitHubIcon /></a>
+                {github_link && <a href={github_link} target="_blank"> <GitHubIcon /></a>}
             </div>
         </div>
     )

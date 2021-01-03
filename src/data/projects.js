@@ -1,11 +1,20 @@
+import BAO from "../images/bay-area-older-adults.jpg";
 import EntertainmentIQ from "../images/entertainmentiq.jpg";
-import Expedia from "../images/expedia-new.jpg";
 import Focp from "../images/focp.jpg";
 import GenderDiversity from "../images/gender-diversity-in-film.jpg";
 import Travelogue from "../images/travelogue.jpg";
 import Neptune from "../images/neptune-project-showcase.jpg";
 
 export const projectData = [
+  {
+    title: "Bay Area Older Adults",
+    tech_stack: "PHP, HTML, CSS",
+    overview:
+      "A complete redesign for non-profit organization website. Changed fixed-width, 3-column layout to a responsive and accessible design.",
+    features: "Responsive layout, cross-browser compatibility",
+    image: BAO,
+    site_link: "https://www.bayareaolderadults.org/",
+  },
   {
     title: "EntertainmentIQ",
     tech_stack: "HTML, CSS, Javascript, Open Trivia DB API",
@@ -49,18 +58,6 @@ export const projectData = [
     image: Neptune,
     site_link: "https://neptune-projects.netlify.app/",
     github_link: "https://github.com/jngong/neptune-project-showcase",
-  },
-  {
-    title: "Expedia",
-    tech_stack:
-      "React, CSS, Node.js, Express.js, Sequelize, PostgreSQL, Heroku",
-    overview:
-      "As consumers demand more sustainable options in their everyday lives, we've introduced a new feature for Expedia to highlight eco-friendly hotels. In collaboration with a team of UX designers and engineers, I built a full-stack Expedia clone in one week following agile methodology and scrum framework.",
-    features:
-      "Mobile first design, User search for bundled vacation packages, Checkbox for eco-friendly options only, User flow to select hotels and room types, Pixel perfect CSS matching UX mock-ups in Zeplin, Admin section for listing, updating or deleting a new hotel",
-    image: Expedia,
-    site_link: "https://expedia-clone.herokuapp.com/",
-    github_link: "https://github.com/jngong/expedia-eco",
   },
   {
     title: "Friends of Columbus Park",
