@@ -39,7 +39,7 @@ const Contact = () => {
             </div>
             <div className='contact-description'>
                 <p>
-                    Thank you for taking the time to review my portfolio. I'm currently open to full-time, freelance and contract opportunities. You can connect with me on <a href="https://www.linkedin.com/in/jngong/" target="blank">LinkedIn</a> or send me a message via the form below. Talk to you soon!
+                    Thank you for taking the time to review my portfolio. You can connect with me on <a href="https://www.linkedin.com/in/jngong/" target="blank">LinkedIn</a> or send me a message via the form below. Hope to speak with you soon!
                 </p>
             </div>
             <ContactForm formDetails={formDetails} handleChange={handleChange} handleSubmit={handleSubmit} status={status} />

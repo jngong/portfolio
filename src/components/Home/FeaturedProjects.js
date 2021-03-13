@@ -1,8 +1,6 @@
 import React from 'react'
 import {projectData} from '../../data/projects'
 import FeaturedProjectCard from './FeaturedProjectCard'
-// import Travelogue from '../../images/travelogue.jpeg'
-
 
 const FeaturedProjects = () => {
 
