@@ -10,7 +10,7 @@ export const projectData = [
     title: "Bay Area Older Adults",
     tech_stack: "PHP, HTML, CSS",
     overview:
-      "A complete redesign for non-profit organization website. Changed fixed-width, 3-column layout to a responsive and accessible design.",
+      "Managed a complete redesign for this non-profit organization website. Changed fixed-width, 3-column layout to a responsive and accessible design.",
     features: "Responsive layout, cross-browser compatibility",
     image: BAO,
     site_link: "https://www.bayareaolderadults.org/",
