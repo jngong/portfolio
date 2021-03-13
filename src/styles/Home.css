@@ -104,12 +104,12 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  padding: 2rem;
+  padding: 1rem 3rem;
 }
 
 .skill {
   min-width: 120px;
-  width: 12%;
+  width: 15%;
   padding: 0.5rem;
   margin: 1rem 0.5rem;
   text-align: center;
