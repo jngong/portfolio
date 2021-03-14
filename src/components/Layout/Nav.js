@@ -16,7 +16,7 @@ const Nav = () => {
         <a
           href="https://drive.google.com/file/d/1QhcTiwjI-Enx9nyG-R-jCxcdGZWhT_IX/view"
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer noopener"
         >
           Resume
         </a>
@@ -25,18 +25,24 @@ const Nav = () => {
         <a
           href="https://www.linkedin.com/in/jngong/"
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer noopener"
+          aria-label="LinkedIn profile link"
         >
           <LinkedInIcon />
         </a>
       </div>
       <div className="navlink">
-        <a href="https://github.com/jngong" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/jngong"
+          target="_blank"
+          rel="noreferrer noopener"
+          aria-label="GitHub profile link"
+        >
           <GitHubIcon />
         </a>
       </div>
       <div className="navlink">
-        <a href="#contact">
+        <a href="#contact" aria-label="Contact form link">
           <EmailIcon />
         </a>
       </div>

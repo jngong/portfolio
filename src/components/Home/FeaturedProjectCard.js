@@ -21,12 +21,22 @@ const FeaturedProjectCard = (props) => {
       <h4>Tech Stack:</h4>
       <p>{tech_stack}</p>
       <div className="icon-row">
-        <a href={site_link} target="_blank" rel="noreferrer">
+        <a
+          href={site_link}
+          target="_blank"
+          rel="noreferrer noopener"
+          aria-label={`Link to ${title} website`}
+        >
           {" "}
           <OpenInNewIcon />
         </a>
         {github_link && (
-          <a href={github_link} target="_blank" rel="noreferrer">
+          <a
+            href={github_link}
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label={`${title} Github link`}
+          >
             {" "}
             <GitHubIcon />
           </a>
