@@ -22,13 +22,13 @@
   margin-bottom: 1rem;
 }
 
-.hero-text > h3 {
+.hero-text > h2 {
   font-size: 2.5rem;
   margin: 0;
   margin-bottom: 0.5rem;
 }
 
-.hero-text > h4 {
+.hero-text > h3 {
   font-size: 1.5rem;
   margin: 0;
 }
@@ -172,7 +172,7 @@
   max-height: 250px;
 }
 
-.featured-project-card > h2 {
+.featured-project-card > h3 {
   margin: 2rem 0 0.5rem;
 }
 

@@ -5,8 +5,8 @@ const Hero = () => {
     <div className="hero" id="top">
       <div className="hero-text">
         <h1>Jennifer Gong</h1>
-        <h3>Software Engineer</h3>
-        <h4>New York City</h4>
+        <h2>Software Engineer</h2>
+        <h3>New York City</h3>
       </div>
     </div>
   );

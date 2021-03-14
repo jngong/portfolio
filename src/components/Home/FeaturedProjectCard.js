@@ -16,7 +16,7 @@ const FeaturedProjectCard = (props) => {
       <a href={site_link} target="_blank" rel="noreferrer">
         <img src={image} alt={title} className="featured-project-card-image" />
       </a>
-      <h2>{title}</h2>
+      <h3>{title}</h3>
       <p>{overview}</p>
       <h4>Tech Stack:</h4>
       <p>{tech_stack}</p>
